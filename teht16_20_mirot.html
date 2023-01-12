@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <style>
+        main {
+            margin-top: 100px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#"><img class="img-fluid" src="savonia.png" alt="Savonia"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-text">
+            <input type="tunnus" placeholder="Tunnus" class="" id="tunnus">
+            <input type="password" placeholder="Salasana" class="" id="salasana">
+            <button type="submit" class="">Kirjaudu</button>
+        </span>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto me-4">
+                <li class="navbar-nav">
+                    <a class="nav-link active" href="#">Alkuun</span></a>
+                </li>
+                <li class="navbar-nav">
+                    <a class="nav-link disabled" href="#">Wilma</a>
+                </li>
+                <li class="navbar-nav">
+                    <a class="nav-link disabled" href="#">Reppu</a>
+                </li>
+                <li class="navbar-nav">
+                    <a class="nav-link dropdown-toggle disabled" href="#">Työkalut</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <!-- Content of the page -->
+    <main>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <form action="/action_page.php" class="form-inline mb-4">
+                <label for="opnro" class="">Opiskelijanumero:</label><br>
+                <input type="text" class="" id="opnro"><br>
+                <label for="alvuo" class="">Aloitusvuosi:</label><br>
+                <input type="text" class="" id="alvuo">
+                <div class="">
+                    <label class="">
+                        <input class="" type="checkbox"> Muista minut
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Tarkista
+                  </button>
+            </form>
+          </div>
+          <div class="col table table-responsive-md">
+            <table class="table">
+                <tr class="">
+                <td style="padding-right: 280px;"><b>Opintojakso</b></td>
+                <td style="padding-right: 170px;"><b>Suorituspvm</b></td>
+                <td style="padding-right: 110px;"><b>Arvosana</b></td>
+                </tr>
+                <tr class="">
+                <td>Ohjelmoinnin perusteet</td>    
+                <td>3.4.2016</td>
+                <td>2/5</td>
+                </tr>
+                <tr class="">
+                <td>Tietorakenteet ja algoritmit</td>    
+                <td>16.2.2016</td>
+                <td>3/5</td>
+                </tr>
+                <tr class="">
+                <td>Matematiikka I</td>    
+                <td>28.1.2015</td>
+                <td>3/5</td>
+                </tr>
+                <tr class="">
+                <td>Matematiikka II</td>    
+                <td>11.9.2015</td>
+                <td>2/5</td>
+                </tr>
+                <tr class="">
+                <td>Fysiikka I</td>    
+                <td>28.11.2014</td>
+                <td>5/5</td>
+                </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </main>
+        
+        <!--https://getbootstrap.com/docs/5.1/utilities/spacing/-->
+       <!--- <div class="row">
+            <div class="col">Data</div>
+            <div class="col">Data</div>
+            <div class="col">Data</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">dataa</div>    
+            <div class="col-sm-3">dataa</div>   
+            <div class="col-sm-3">dataa</div>   
+            <div class="col-sm-3">dataa</div>   
+            <div class="col-sm-3">dataa</div>   
+            <div class="col-sm-3">dataa</div>   
+        </div> --->
+
+        
+       
+        <!--https://getbootstrap.com/docs/5.1/utilities/spacing/-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="col table-responsive-md table-borderless">
+                <table class="table-responsive-md table-borderless">
+                    <tr class="">
+                    <td style="padding-right: 300px;"><span class="text-muted">(c)2017-2018</span></td>
+                    <td style="padding-right: 400px;"><b>Toimipaikat</b></td>
+                    <td><b>Tietoja</b></td>
+                    </tr>
+                    <tr class="">
+                    <td></td>    
+                    <td><span class="text-muted">Opistotie</span></td>
+                    <td><span class="text-muted">Yhteystiedot</span></td>
+                    </tr>
+                    <tr class="">
+                    <td></td>    
+                    <td><span class="text-muted">Technopolis</span></td>
+                    <td><span class="text-muted">GDPR</span></td>
+                    </tr>
+                    <tr class="">
+                    <td></td>    
+                    <td><span class="text-muted">Iisalmi</span></td>
+                    <td><span class="text-muted">Ota yhteyttä</span></td>
+                    </tr>
+                    <tr class="">
+                    <td></td>    
+                    <td><span class="text-muted">Varkaus</span></td>
+                    <td></td>
+                    </tr>
+                </table>
+              </div>
+            
+        </div>
+    </footer>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Tietojen tarkistus</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         Tarkista ovatko ao. tiedot oikein:
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Tallenna tiedot</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sulje</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
