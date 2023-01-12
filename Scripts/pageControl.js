@@ -3,6 +3,7 @@
 
 
     var careerBtn = document.getElementById("careerBtn");
+    var educationBtn = document.getElementById("educationBtn");
     var projectsBtn = document.getElementById("projectsBtn");
     var skillsBtn = document.getElementById("skillsBtn");
 
@@ -11,6 +12,11 @@
         displayCareerPage();
     });
 
+    educationBtn.addEventListener('click', (e) => {
+        delete_all();
+        displayEducationBtn();
+    });
+    
     projectsBtn.addEventListener('click', (e) => {
         delete_all();
         displayProjectsPage();
@@ -27,6 +33,11 @@
     }
 
     function displayCareerPage() {
+
+
+    }
+
+    function displayEducationBtn() {
 
 
     }
