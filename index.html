@@ -3,17 +3,34 @@
 
 <head>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Radu Dumitriu portfolio</title>
+    <title>Radu Dumitriu Portfolio</title>
+
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
 
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-    <img src="magiccat.png" alt="" />
+    <h1 style="text-align:center">
+        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+    </h1>
+    <p style="text-align:center">I'm hosted with GitHub Pages.</p>
 
-    <a href="teht16_20_mirot.html">TEST</a>
+    <img id="magicCat" src="magiccat.png" alt="" class="center"/>
+
+    <section style="text-align:center" class="buttons">
+        <div class="button_container">
+            <button id="careerBtn" type="button" class="btn btn-primary">Career</button>
+            <button id="projectsBtn" type="button" class="btn btn-primary">Projects</button>
+            <button id="skillsBtn" type="button" class="btn btn-primary">Skills</button>
+        </div>
+    </section>
+
+
+    <script src="Scripts\pageControl.js"></script>
 </body>
 
 </html>
