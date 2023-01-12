@@ -1,9 +1,19 @@
 
+h1 {
+    margin: 3% 25% 3% 25%;
+}
+
+p {
+    margin: 3% 25% 3% 25%;
+}
+
+hr.dotted {
+    border-top: 3px dotted #bbb;
+    margin: 3% 25% 3% 25%;
+}
 
 #magicCat {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
