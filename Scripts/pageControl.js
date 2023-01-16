@@ -18,8 +18,6 @@ let buttonLock = false;
     {
         DisplayText.push("");
 
-        print("go thru content name: " + CONTENT_NAMES[i]);
-
         var request = new Request("./Data/Content/" + CONTENT_NAMES[i] + ".html");
 
         fetch(request)
