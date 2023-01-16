@@ -12,10 +12,7 @@ const TransitionDuration = 0;
 let DisplayText = [];
 let buttonLock = false;
 
-window.addEventListener("load", () => {
-    console.log("This function is executed once the page is fully loaded");
-});
-
+window.addEventListener("load", () => 
 {
     for (let i = 0; i < CONTENT_NAMES.length; ++i)
     {
