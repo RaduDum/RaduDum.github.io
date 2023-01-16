@@ -23,11 +23,9 @@ window.addEventListener("load", () =>
         fetch("./Data/Content/" + CONTENT_NAMES[i] + ".html")
             .then(r => {
                 r.text();
-                alert(r);
             })
             .then(t => {
                 DisplayText[i] = t;
-                alert(t);
             })
 
         document.getElementById(CONTENT_NAMES[i] + "Btn").addEventListener('click', (e) => {
