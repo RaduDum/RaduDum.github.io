@@ -12,15 +12,17 @@ const TransitionDuration = 0;
 let DisplayText = [];
 let buttonLock = false;
 
-window.addEventListener("load", () => 
-{
+//window.addEventListener("load", () => 
+//{
     for (let i = 0; i < CONTENT_NAMES.length; ++i)
     {
         DisplayText.push("");
 
         print("go thru content name: " + CONTENT_NAMES[i]);
 
-        fetch("./Data/Content/" + CONTENT_NAMES[i] + ".html")
+        var request = new Request("./Data/Content/" + CONTENT_NAMES[i] + ".html");
+
+        fetch(request)
             .then(r => r.text())
             .then(t => DisplayText[i] = t)
 
@@ -41,7 +43,7 @@ window.addEventListener("load", () =>
         });
 
     }
-});
+//});
 
 function displayContentPage(textArea, i) {
     if (textArea.style.opacity == 0) /* Case: Not currently displaying anything in this text area */ {
