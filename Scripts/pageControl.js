@@ -18,15 +18,11 @@ window.addEventListener("load", () =>
     {
         DisplayText.push("");
 
-        alert("go thru content name: " + CONTENT_NAMES[i]);
+        print("go thru content name: " + CONTENT_NAMES[i]);
 
         fetch("./Data/Content/" + CONTENT_NAMES[i] + ".html")
-            .then(r => {
-                r.text();
-            })
-            .then(t => {
-                DisplayText[i] = t;
-            })
+            .then(r => r.text())
+            .then(t => DisplayText[i] = t)
 
         document.getElementById(CONTENT_NAMES[i] + "Btn").addEventListener('click', (e) => {
 
