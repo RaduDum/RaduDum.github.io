@@ -43,6 +43,7 @@ window.addEventListener("load", () =>
     }
 });
 
+
 function displayContentPage(textArea, i) {
     if (textArea.style.opacity == 0) /* Case: Not currently displaying anything in this text area */ {
         document.body.style.height = "200vh";
