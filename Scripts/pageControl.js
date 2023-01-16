@@ -12,8 +12,8 @@ const TransitionDuration = 0;
 let DisplayText = [];
 let buttonLock = false;
 
-//window.addEventListener("load", () => 
-//{
+window.addEventListener("load", () => 
+{
     for (let i = 0; i < CONTENT_NAMES.length; ++i)
     {
         DisplayText.push("");
@@ -41,7 +41,7 @@ let buttonLock = false;
         });
 
     }
-//});
+});
 
 function displayContentPage(textArea, i) {
     if (textArea.style.opacity == 0) /* Case: Not currently displaying anything in this text area */ {
