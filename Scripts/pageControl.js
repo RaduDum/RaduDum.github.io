@@ -12,26 +12,27 @@ const TransitionDuration = 0;
 let DisplayText = [];
 let buttonLock = false;
 
-for (let i = 0; i < CONTENT_NAMES.length; ++i)
+window.addEventListener("load", () => {
+    console.log("This function is executed once the page is fully loaded");
+});
+
 {
-    DisplayText.push("");
+    for (let i = 0; i < CONTENT_NAMES.length; ++i)
+    {
+        DisplayText.push("");
 
-    alert("go thru content name: " + CONTENT_NAMES[i]);
+        alert("go thru content name: " + CONTENT_NAMES[i]);
 
-    fetch("./Data/Content/" + CONTENT_NAMES[i] + ".html")
-        .then(r => {
-            r.text();
-            alert(r);
-        })
-        .then(t => {
-            DisplayText[i] = t;
-            alert(t);
-        })
-}
+        fetch("./Data/Content/" + CONTENT_NAMES[i] + ".html")
+            .then(r => {
+                r.text();
+                alert(r);
+            })
+            .then(t => {
+                DisplayText[i] = t;
+                alert(t);
+            })
 
-document.addEventListener('DOMContentLoaded', function ()
-{
-    for (let i = 0; i < CONTENT_NAMES.length; ++i) {
         document.getElementById(CONTENT_NAMES[i] + "Btn").addEventListener('click', (e) => {
 
             let textArea = document.getElementById("content-display");
