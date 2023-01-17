@@ -9,29 +9,152 @@ p {
     margin: 3% 25% 3% 25%;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+
+#Title {
+    color: #66FCF1;
+}
+
+#quick_links {
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 2px;
+    color: #c5c6c7
+}
+
+i.fa {
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20pt;
+    color: #0b0C10;
+}
+
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: Verdana, sans-serif;
+    background-color: #1f2833;
+    color: #c5c6c7;
+}
+
+.button_container{
+    font-size: 62.5%;
+}
+
+.btn-links {
+    background-color: #45A29E;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-links:hover {
+    background-color: #66FCF1;
+    transition: 0.7s;
+    color: rgb(255, 255, 255);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.btn-primary {
+    background-color: #45A29E;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #66FCF1;
+    transition: 0.7s;
+}
+
+
 hr.dotted {
     border-top: 3px dotted #bbb;
     margin: 3% 25% 3% 25%;
 }
 
-#magicCat {
+#Selfie {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/****************** Career section *********************/
+.hr-career {
+    color: #c5c6c7;
+    font-family: Helvetica, sans-serif;
+}
+
+.career-title {
+    color: #c5c6c7;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, sans-serif;
+}
+
+/****************** Projects section *********************/
+
+#rdr2splash {
+    display: block;
+    width: auto;
+    max-height: 30%;
+}
+
+.proj {
+    color: #c5c6c7;
+    font-family: Helvetica, sans-serif;
+}
+
+.proj-title {
+    color: #c5c6c7;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, sans-serif;
+}
+
+iframe {
+    margin: 3% 25% 3% 25%;
+    text-align: center;
+}
+
+/****************** Education section *********************/
+.edu {
+    color: #c5c6c7;
+    font-family: Helvetica, sans-serif;
+}
+
+.edu-title {
+    color: #c5c6c7;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, sans-serif;
 }
 
 
 /****************** Skills section *********************/
 
 #skill-chart-title {
-    color: rgba(255, 255, 255, 255);
+    color: #c5c6c7;
     text-align: center;
-    font-family: 'VT323', monospace;
     font-size: 3.5rem;
     letter-spacing: -.05rem;
 }
-
-/* ---------------------------------------------------- */
 
 .chart_parent {
     border: 2px dotted white;
@@ -39,31 +162,30 @@ hr.dotted {
 
 .chart .metric {
     background-color: rgba(0, 0, 0, 0);
-    background: rgba(255, 255, 255, 0);
-    color: white;
+    background: rgba(0, 0, 0, 0);
+    color: #c5c6c7;
     text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
     border-radius: 3px;
     padding: 10px;
     text-align: left;
-    box-shadow: inset 0 0 8px rgba(255, 255, 255, 0.6);
-    font-family: 'cascadia', 'monospace';
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
-    .chart .metric .metric-value {
-        font-weight: bold;
-    }
+.chart .metric .metric-value {
+    font-weight: bold;
+}
 
 .chart-horizontal {
-    width: 100%;
+width: 100%;
 }
 
-    .chart-horizontal .metric {
-        margin-bottom: 3px;
-        min-width: 100px;
-        padding: 6px 15px;
-    }
+.chart-horizontal .metric {
+    margin-bottom: 3px;
+    min-width: 100px;
+    padding: 6px 15px;
+}
 
-        .chart-horizontal .metric .metric-value {
-            float: right;
-            font-weight: bold;
-        }
+.chart-horizontal .metric .metric-value {
+    float: right;
+    font-weight: bold;
+}

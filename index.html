@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Radu Dumitriu Portfolio</title>
 
     <link rel="stylesheet" type="text/css" href="mystyle.css">
@@ -14,29 +16,38 @@
 
 <body>
 
-    <h1 style="text-align:center">RADU DUMITRIU</h1>
-    <p style="text-align:center">Portfolio test</p>
+    <h1 id="Title" style="text-align:center">RADU DUMITRIU</h1>
+    <p style="text-align:center">Welcome to my webpage! My name is Radu; I'm a dedicated programmer with an interest in developing fun interactive experiences.</p>
 
     <hr class="dotted">
 
-    <img id="magicCat" src="magiccat.png" alt="" class="center" />
-
-    <hr class="dotted">
-
-    <section style="text-align:center" class="buttons">
-        <div class="button_container">
-            <button id="careerBtn" type="button" class="btn btn-primary">Career</button>
-            <button id="educationBtn" type="button" class="btn btn-primary">Education</button>
-            <button id="projectsBtn" type="button" class="btn btn-primary">Projects</button>
-            <button id="skillsBtn" type="button" class="btn btn-primary">Skills</button>
+    <div class="button_container">
+        <img id="Selfie" src=".\Data\images\Selfie.jpg" alt="" width="420" height="420" />
+        <br>
+        <div id="quick_links">
+            <a href="mailto:radu.dumitriu.dev@gmail.com" class="btn btn-links" target="_blank"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/radu-dumitriu/" class="btn btn-links" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCXMVgmwvFZreguxLJ_FOQBw" class="btn btn-links" target="_blank"><i class="fa fa-youtube"></i></a>
         </div>
-    </section>
+    </div>
 
-    <hr class="dotted">
+        <hr class="dotted">
 
-    <div id="content-display" class="container kd-selection-content" style="opacity: 0;"></div>
+        <section style="text-align:center" class="buttons">
+            <div class="button_container">
+                <button id="careerBtn" type="button" class="btn btn-primary">Career</button>
+                <button id="educationBtn" type="button" class="btn btn-primary">Education</button>
+                <button id="projectsBtn" type="button" class="btn btn-primary">Projects</button>
+                <button id="skillsBtn" type="button" class="btn btn-primary">Skills</button>
+            </div>
+        </section>
 
-    <script src="Scripts\pageControl.js"></script>
+        <hr class="dotted">
+
+        <div id="content-display" class="container kd-selection-content" style="opacity: 0;">
+        </div>
+
+        <script src="Scripts\pageControl.js"></script>
 </body>
 
 </html>
