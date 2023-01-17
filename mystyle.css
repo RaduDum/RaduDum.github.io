@@ -85,6 +85,9 @@ body {
     transition: 0.7s;
 }
 
+hr {
+    border-top: 1px solid #c5c6c7;
+}
 
 hr.dotted {
     border-top: 3px dotted #bbb;
