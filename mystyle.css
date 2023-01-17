@@ -70,6 +70,8 @@ body {
     background-color: #45A29E;
     border: none;
     border-radius: 10px;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .btn-primary:hover {
@@ -126,7 +128,12 @@ hr.dotted {
     font-family: Georgia, sans-serif;
 }
 
-iframe {
+#content-display {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+embed {
     margin: 3% 25% 3% 25%;
     text-align: center;
 }
