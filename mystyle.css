@@ -16,7 +16,13 @@ html {
 
 #Title {
     color: #66FCF1;
+    font-size: 3.5em;
 }
+
+#Subtitle {
+    font-size: 1.5em;
+}
+
 
 #quick_links {
     width: 100%;
