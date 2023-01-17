@@ -109,10 +109,18 @@ hr.dotted {
 .career-title {
     color: #c5c6c7;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Georgia, sans-serif;
+}
+
+.career-sub-title {
+    color: #c5c6c7;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
 }
 
 /****************** Projects section *********************/
@@ -131,11 +139,20 @@ hr.dotted {
 .proj-title {
     color: #c5c6c7;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Georgia, sans-serif;
 }
+
+.proj-sub-title {
+    color: #c5c6c7;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
+}
+
 
 #content-display {
     margin-bottom: 5%;
@@ -155,10 +172,18 @@ embed {
 .edu-title {
     color: #c5c6c7;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: Georgia, sans-serif;
+}
+
+.edu-sub-title {
+    color: #c5c6c7;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Helvetica, sans-serif;
 }
 
 
